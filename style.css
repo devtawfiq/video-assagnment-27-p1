@@ -1,0 +1,199 @@
+/* ------ Default Css --------- */
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.text-left{
+    text-align: left;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+/* -------- Main Css --------- */
+.main-header{
+    background: rgb(59, 166, 228);
+}
+.header-left{
+    float: left;
+    width: 30%;
+}
+.header-right{
+    float: right;
+    width: 70%;
+}
+.logo img {
+    width: 180px;
+    margin-top: 4px;
+}
+.memu{}
+.memu ul{
+    text-align: right;
+}
+.memu ul li{
+    display: inline-block;
+}
+.memu ul li a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 0 24px;
+    line-height: 71px;
+    border-right: 1px solid #ddd;
+    margin-left: -4px;
+    transition: .4s;
+}
+.memu ul li a:hover{
+    background: rgb(40, 96, 128);
+}
+
+/* ------ Banner section ------ */
+.banner{
+    background-image: url(./img/unnamed.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 200px 0;
+    background-attachment: fixed;
+}
+.caption{}
+.caption h2 {
+    background: rgba(0, 0, 0, .4);
+    display: inline-block;
+    padding: 13px 15px;
+    border-radius: 5px;
+    margin-bottom: 23px;
+    color: #fff;
+    font-size: 35px;
+}
+.caption h1 {
+    font-size: 40px;
+    background: rgb(59 166 228 / 60%);
+    width: 471px;
+    margin: auto;
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: #fff;
+}
+/* ---------- About section ----- */
+.about-section {
+    padding: 45px 20px;
+    width: 550px;
+    margin: auto;
+}
+.about-section h2{
+    font-size: 30px;
+}
+.about-section p {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+/* ---------- Service section ----------- */
+
+.service-box {
+    float: left;
+    width: 31.3%;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    padding: 15px;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+.service-box span {
+    font-size: 28px;
+    background: #3ba6e4;
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    line-height: 60px;
+    color: #fff;
+    border-radius: 20px 0 20px 0;
+    margin-bottom: 10px;
+}
+.service-box h3 {
+    margin: 5px 0;
+    font-size: 22px;
+}
+.service-box p {
+    margin-top: 13px;
+}
+.testimonial-left{
+    width: 70%;
+    float: left;
+}
+.testimonial-right {
+	width: 25%;
+	float: right;
+    margin-top: -19%;
+}
+.images img{
+    width: 150px;
+    float: left;
+    height: auto;
+    margin-right: 9px;
+}
+.images {
+    margin-bottom: 20px;
+}
+.testimonial-section{
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.testimonial-right h3 {
+	border-bottom: 1px solid #dddd;
+	padding: 10px 0;
+	font-size: 26px;
+}
+.testimonial-right ul {
+	list-style: none;
+}
+.testimonial-right ul li {
+	margin: 16px 0;
+	border: 1px solid #ddd;
+	padding: 10px 5px;
+	background: #fbfbfb;
+}
+.fotter-section{
+    background: rgb(4, 4, 17);
+    padding: 10px 0;
+}
+.fotter-left{
+    width: 40%;
+    float: left;
+}
+.fotter-left h6 {
+    color: #fff;
+    font-size: 17px;
+}
+.fotter-right{
+    width: 60%;
+    float: right;
+}
+.fotter-right ul{
+    list-style: none;
+    text-align: right;
+}
+.fotter-right ul li{
+    display: inline-block;
+    padding: 0 10px;
+}
+.fotter-right ul li a{
+    display: block;
+    color: #fff;
+    font-size: 20px;
+}
+
+
+
